@@ -1,0 +1,57 @@
+#background h2 {
+  text-align: center;
+  color: crimson;
+}
+
+#drum-machine .drums {
+  background-color: antiquewhite;
+  width: 70%;
+  height: 10vh;
+  margin: auto;
+  border-radius: 10px;
+}
+#drum-machine .drums button {
+  display: inline-block;
+  width: 5em;
+  height: 4em;
+  margin-left: 8em;
+  background-color: darkcyan;
+  color: white;
+  padding: 10px;
+}
+
+.background {
+    width: 25%;
+    height: 3em;
+    margin: auto;
+    margin-top: 2em;
+}
+.background button {
+    height: 100%;
+    width: 100%;
+    color: crimson;
+}
+.background button:hover {
+    background-color: crimson;
+    color: whitesmoke;
+}
+.display-drum h4, .display-drum p {
+text-align: center;
+color: crimson;
+}
+@media (max-width: 480px) {
+    #drum-machine .drums {
+        width: 70vw;
+        height: 10vh;
+    }
+    #drum-machine .drums button {
+        margin-left: 10px;
+    }
+    .background {
+        background-color: cyan;
+        margin-right: 7em;
+    }
+    .background button {
+        width: 10em;
+    }
+}
